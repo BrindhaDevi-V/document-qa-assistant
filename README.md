@@ -13,7 +13,20 @@ A Python project to explore document question answering using Retrieval-Augmente
 
 ## Current Status
 
-Initial project setup.
+### Implemented
+- PDF text extraction using pypdf
+- Page-by-page extraction with page markers
+- Validation for missing files and invalid extensions
+- Error handling when no extractable text is found
+- Automated tests using pytest
+
+### Planned
+- Text cleaning and preprocessing
+- Text chunking
+- Text embeddings
+- Semantic retrieval
+- LLM-based answer generation
+- Answer evaluation and handling missing information
 
 ## Tech Stack
 
